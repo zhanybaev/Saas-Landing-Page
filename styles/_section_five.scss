@@ -83,6 +83,7 @@
             font-size: 30px;
         }
         .starter{
+            transition: 0.7s;
             margin-top: 16px;
             height: 441px;
             width: 330px;
@@ -91,6 +92,7 @@
             border-radius: 10px;
         };
         .premium{
+            transition: 0.7s;
             height: 473px;
             width: 376px;
             background-color: #FF7143;
@@ -109,6 +111,7 @@
             }
         };
         .enterprise{
+            transition: 0.7s;
             height: 441px;
             width: 330px;
             background: #eae9f2;
@@ -117,6 +120,11 @@
             border-radius: 10px;
         }
     }
+}
+
+.premium:hover, .enterprise:hover, .starter:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
+    transition: 1s;
 }
 
 @media screen and (max-width: 1000px){
