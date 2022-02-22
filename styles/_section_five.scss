@@ -1,0 +1,188 @@
+@import 'consts';
+
+.section_five{
+    margin-top: 150px;
+    .giant_plan{
+        display: flex;
+        justify-content: space-between;
+        h3{
+            color: #19191b;
+            font-family: $dmSansff;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 70px;
+            width: 532px;
+        }
+        .time{
+            display: flex;
+            background: #f7f7fb;
+            border-radius: 10px;
+            height: 65px;
+            margin-left: 160px;
+            margin-top: 48px;
+            #yearly{
+                margin-top: 1.5%;
+                color: #fff;
+                height: 55px;
+                width: 160px;
+                text-align: center;
+                justify-content: center;
+                // vertical-align: middle;
+                background: #5454d4;
+                border-radius: 10px 0 0 10px;
+                padding-top: 5%;
+            };
+            #monthly{
+                text-align: center;
+                height: 65px;
+                width: 184px;
+                color: #19191B;
+                vertical-align: middle;
+                border-radius: 0 10px 10px 0;
+                padding-top: 6.5%;
+            }
+        }
+    };
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 82px;
+        margin-bottom: 158px;
+        .get_start_3{
+            width: 285px;
+            height: 60px;
+            background: #fff;
+            color: #5454d4;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 17px;
+            font-family: $dmSansff;
+            margin-top: 36px;
+        }
+        .info{
+            font-size: 17px;
+            line-height: 50px;
+            font-family: $mulishff;
+            font-weight: 400;
+            color: #696871;
+            margin-top: 28px;
+        }
+        .card_name{
+            margin-top: 50px;
+            font-family: $dmSansff;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #696871;
+        };
+        .card_price{
+            margin-top: 22px;
+            font-family: $dmSansff;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .starter{
+            margin-top: 16px;
+            height: 441px;
+            width: 330px;
+            background: #eae9f2;
+            text-align: center;
+            border-radius: 10px;
+        };
+        .premium{
+            height: 473px;
+            width: 376px;
+            background-color: #FF7143;
+            border-radius: 10px;
+            margin: auto 16px;
+            text-align: center;
+            p{
+                color: #fff;
+            };
+            h2{
+              color: #fff;  
+            };
+            button{
+                background: #9f3919;
+                color: #fff;
+            }
+        };
+        .enterprise{
+            height: 441px;
+            width: 330px;
+            background: #eae9f2;
+            text-align: center;
+            margin-top: 16px;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+.section_five{
+    margin-top: 40px !important;
+    .giant_plan{
+        h3{
+            font-size: 40px;
+            line-height: 40px;
+        }
+    };
+    .cards{
+        margin-bottom: 40px;
+        .get_start_3{
+            margin-top: 5px;
+            width: 95%;
+        };
+        .info{
+            margin-top: 7px;
+        }
+        .starter{
+            width: 165px;
+            height: 365px !important;
+        }
+        .premium{
+            width: 188px;
+            height: 393px
+        };
+        .enterprise{
+            width: 165px;
+            height: 365px !important;
+        }
+    }
+}       
+}
+
+@media screen and (max-width: 750px){
+    .cards{
+        flex-wrap: wrap;
+    };
+    .giant_plan{
+        flex-wrap: wrap;
+    }
+    .time{
+        margin-left: 10px !important;
+        #yearly{
+            margin-top: 1.5%;
+            color: #fff;
+            height: 50px !important;
+            width: 120px !important;
+        };
+        #monthly{
+            height: 60px !important;
+            width: 120px !important;
+        }
+    }
+    .starter{
+        width: 190px !important;
+        margin: 15px !important;
+    }
+    .premium{
+        width: 210px !important;
+        margin: 15px
+    };
+    .enterprise{
+        width: 190px !important;
+        margin: 15px;
+    }
+}

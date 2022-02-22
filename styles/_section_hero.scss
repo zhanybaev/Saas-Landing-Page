@@ -1,0 +1,115 @@
+@import 'consts';
+
+.section_hero{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    #hero_img{
+        width: 610px;
+        margin-left: 40px;
+    }
+    .hero_text{
+        #hero_main_text{
+            color: #19191B;
+            font-weight: 700;
+            font-size: 80px;
+            font-family: $dmSansff;
+            margin-top: 92px;
+            padding-top: 10px;
+            line-height: 77px
+        };
+        #hero_paragraph{
+            font-family: $mulishff;
+            color: #696871;
+            font-size: 20px;
+            margin-top: 31px
+        };
+        #get_start_2{
+            background: #5454d4;
+            color: white;
+            width: 211px;
+            height: 60px;
+            border-radius: 10px;
+            border: none;
+            font-family: $dmSansff;
+            font-weight: 700;
+            font-size: 17px;
+        };
+        #arrow{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background:#fff;
+            border: 1px solid #E7E7E7;
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+    }
+    
+}
+
+.logoipsum{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1300px){
+    .section_hero{
+        flex-wrap: wrap;
+        margin-top: 0px;       
+        #hero_img{
+            width: 600px;
+            margin-top: 160px;
+        };
+        .hero_text{
+            margin-top: 0px;
+        }
+    };
+
+    .logoipsum{
+        justify-content: space-around;
+        img{
+            width: 150px;
+            margin: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    #hero_main_text{
+        font-size: 40px !important;
+        margin-top: 10px !important;
+        line-height: 50px !important;
+    };
+    #get_start_2{
+        width:110px !important ;
+    };
+    #arrow{
+        margin-left: 5px !important;
+    };
+    #hero_paragraph{
+        font-size: 14px !important;
+        margin-top: 10px !important;
+    };
+    #hero_img{
+        width: 95% !important;
+        height: auto;
+        margin-left: 0px !important;
+        margin-top: 50px !important;
+    };
+    .logoipsum{
+        margin-top: 15px !important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #hero_
+    .logoipsum{
+        img{
+            height: 15px !important;
+            margin: 7px !important;
+        }
+    }   
+}
