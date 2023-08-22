@@ -15,6 +15,11 @@
 
 body {
   margin: auto 12%;
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
 }
 
 nav {
